@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class Program
+    class Orc
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
