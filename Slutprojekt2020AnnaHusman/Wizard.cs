@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class Wizard
+    class Wizard : CharacterClass
     {
     }
 }
