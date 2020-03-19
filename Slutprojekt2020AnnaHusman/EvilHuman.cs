@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class EvilHuman
+    class EvilHuman : CharacterClass
     {
+        public EvilHuman()
+        {
+            hp = 100;
+            minDamage = 5;
+            maxDamage = 45;
+
+           
+        }
+        public string location; 
+        public void Getlocation()
+        {
+
+        }
     }
 }

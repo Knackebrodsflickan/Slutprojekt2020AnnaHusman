@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterClass.cs" />
+    <Compile Include="Elf.cs" />
+    <Compile Include="EvilHuman.cs" />
+    <Compile Include="Exit.cs" />
+    <Compile Include="GoodHuman.cs" />
+    <Compile Include="Human.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rooms.cs" />
+    <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
