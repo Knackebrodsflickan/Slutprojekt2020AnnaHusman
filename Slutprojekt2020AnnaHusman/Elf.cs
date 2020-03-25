@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class Elf
+    class Elf : CharacterClass
     {
+
     }
 }
