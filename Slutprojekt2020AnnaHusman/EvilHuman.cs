@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class EvilHuman : CharacterClass
+    class EvilHuman : Human
     {
         public EvilHuman()
         {
