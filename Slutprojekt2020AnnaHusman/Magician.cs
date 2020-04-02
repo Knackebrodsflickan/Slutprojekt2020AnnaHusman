@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class GoodHuman : Human
+    class Magician : Wizard
     {
-        public GoodHuman()
+        public Magician()
         {
-           
-            minDamage = 10;
-            maxDamage = 40;
-        }           
-
+            magicStrength = 10; 
+        }
     }
 }

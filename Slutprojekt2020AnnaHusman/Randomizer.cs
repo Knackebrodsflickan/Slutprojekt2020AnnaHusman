@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt2020AnnaHusman
 {
-    class Elf : CharacterClass
+    class Randomizer
     {
-
     }
 }

@@ -8,5 +8,12 @@ namespace Slutprojekt2020AnnaHusman
 {
     class Wizard : CharacterClass
     {
+       public Wizard()
+        {
+            hp = 800; 
+            
+
+        }
+        public int magicStrength; 
     }
 }

@@ -13,14 +13,14 @@ namespace Slutprojekt2020AnnaHusman
 
         public Human()
         {
-            hp = 50;
 
-             
+            hp = 100;
+
         }
         public int Mischief()
         {
-            return generator.Next(0, 15); // Mischief is a trait that basically means that sometimes the humans disobeys your order? or depending on the number the human can unlock new alternative ways to handle a situation. 
-
+            //return generator.Next(0, 15); // Mischief is a trait that basically means that sometimes the humans disobeys your order? or depending on the number the human can unlock new alternative ways to handle a situation. 
+            return 0;
         }
     }
 }

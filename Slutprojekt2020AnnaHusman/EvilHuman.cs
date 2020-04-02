@@ -10,7 +10,7 @@ namespace Slutprojekt2020AnnaHusman
     {
         public EvilHuman()
         {
-            hp = 100;
+            
             minDamage = 5;
             maxDamage = 45;
 
