@@ -51,6 +51,7 @@
     <Compile Include="Necromancer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randomizer.cs" />
     <Compile Include="Rooms.cs" />
     <Compile Include="Wizard.cs" />
   </ItemGroup>
