@@ -11,7 +11,9 @@ namespace Slutprojekt2020AnnaHusman
         public Necromancer()
         {
             magicStrength = 100;
-            
+
+            minDamage = 100;
+            maxDamage = 500;
         }
     }
 }

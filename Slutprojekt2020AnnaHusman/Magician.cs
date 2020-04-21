@@ -10,7 +10,10 @@ namespace Slutprojekt2020AnnaHusman
     {
         public Magician()
         {
-            magicStrength = 10; 
+            magicStrength = 10;
+
+            maxDamage = 300;
+            minDamage = 50;
         }
     }
 }

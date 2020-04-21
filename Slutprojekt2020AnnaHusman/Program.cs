@@ -23,17 +23,38 @@ namespace Slutprojekt2020AnnaHusman
                 Console.WriteLine("Uh oh! thats not one of the classes avaliable, please try again");
                 Console.ReadKey();
             }
-            if(Class == "Wizard")
+            if(Class == "Wizard") // långa if satser som handlar om vilken class du väljer i slutändan
             {
                 Console.WriteLine("You have chosen: Wizard!");
                 Console.WriteLine("Please choose a sub class: Necromancer or Magician");
                 String SubClassWizard = Console.ReadLine();
                 if(SubClassWizard == "Necromancer")
                 {
-                    Console.WriteLine("You have chosen the subclass Necromancer!");
+                    Console.WriteLine("You have chosen the subclass Necromancer! Here are your attributes:");
+                    Console.ReadKey();
+                }
+                else if(SubClassWizard == "Magician")
+                {
+                    Console.WriteLine("You have chosen the subclass Magician! Here are your attributes:");
+                    Console.WriteLine("Hp: 800 ----- Magicstrength: 100 ---- Max damage: 300 --- Minimum damage: 50;"); // kan förmodligen använda mig av en metod för att göra det här 
+                    Console.ReadKey();
                 }
             }
-
+            else if(Class == "Human") // om u inte valde wizard drars den här if satsen. 
+            {
+                Console.WriteLine("You have chosen: Human!");
+                Console.WriteLine("Please choose a sub class: Good human or Evil Human");
+                string SubClassHuman = Console.ReadLine();
+                if(SubClassHuman == "Good human")
+                {
+                    Console.WriteLine("You have chosen the subclass Good human! Here are your attributes: ");
+                    Console.ReadKey();
+                }
+                else if(SubClassHuman == "Evil human")
+                {
+                    Console.WriteLine("You have chosen the subclass Evil human! Here are your attributes: ");
+                }
+            }
             /*List<string> nameList = new List<string>();
 
             nameList.Add("Stephan");
